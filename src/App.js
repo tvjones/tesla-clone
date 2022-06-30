@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Section from './Components/Section';
+import Header from './Components/Header';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App h-full">
+      <div className='fixed pt-16 mb-20'><Header /></div>
+      <Section prodName = 'Model 3' bgImg = 'tesla-model-3' />
+      <Section prodName = 'Model Y' bgImg = 'tesla-model-y' />
+      <Section prodName = 'Model S' bgImg = 'tesla-model-s' />
+      <Section prodName = 'Model X' bgImg = 'tesla-model-x' />
+      <Section prodName = 'Solar Panels' bgImg = 'tesla-solar-panel' />
+      <Section prodName = 'Solar Roof' bgImg = 'tesla-solar-roof' />
+      <Section prodName = 'Accessories' bgImg = 'tesla-accessories' />
     </div>
   );
 }

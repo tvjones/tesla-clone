@@ -1,13 +1,39 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "Rubik",sans-serif;
+  color: black;
+  font-size: 16px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root{
+  width: 100%;
+  height: 100%;
+}
+
+#tesla-model-3{
+  background-image: url('../public/images/tesla-model-3.jpg');
+}
+#tesla-model-s{
+  background-image: url('../public/images/tesla-model-s.jpg');
+}
+#tesla-model-x{
+  background-image: url('../public/images/tesla-model-x.jpg');
+}
+#tesla-model-y{
+  background-image: url('../public/images/tesla-model-y.jpg');
+}
+#tesla-solar-panel{
+  background-image: url('../public/images/tesla-solar-panels.jpg');
+}
+#tesla-solar-roof{
+  background-image: url('../public/images/tesla-solar-roof.jpg');
+}
+#tesla-accessories{
+  background-image: url('../public/images/tesla-accessories.jpg');
 }
