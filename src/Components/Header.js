@@ -32,8 +32,7 @@ const toggleMenu = () =>{
             <ul className='grid grid-cols-3'>
                 <li className='hover:rounded-full hover:bg-gray-400 cursor-pointer'>Shop</li>
                 <li className='hover:rounded-full hover:bg-gray-400 cursor-pointer'>Account</li>
-                <li className='hover:rounded-full hover:bg-gray-400 cursor-pointer' onClick= { ()=>{  (document.getElementById('menu').className === 'hidden w-[20rem] fixed inset-y-0 right-0  bg-white col-start-3 ml-[20rem] text-left'?document.getElementById('menu').className ='w-[20rem] fixed inset-y-0 right-0  bg-white col-start-3 ml-[20rem] text-left': document.getElementById('menu').className = 'hidden w-[20rem] fixed inset-y-0 right-0  bg-white col-start-3 ml-[20rem] text-left')
-    console.log("HI")} }>Menu</li>
+                <li className='hover:rounded-full hover:bg-gray-400 cursor-pointer' onClick= { ()=>{  (document.getElementById('menu').className === 'hidden w-[20rem] fixed inset-y-0 right-0  bg-white col-start-3 ml-[20rem] text-left'?document.getElementById('menu').className ='w-[20rem] fixed inset-y-0 right-0  bg-white col-start-3 ml-[20rem] text-left': document.getElementById('menu').className = 'hidden w-[20rem] fixed inset-y-0 right-0  bg-white col-start-3 ml-[20rem] text-left')} }>Menu</li>
             </ul>
         </nav>
         <div id = "menu" className="hidden w-[20rem] fixed inset-y-0 right-0  bg-white col-start-3 ml-[20rem] text-left"><Menu /></div>
