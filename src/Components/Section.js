@@ -6,7 +6,7 @@ import '../index.css'
 function Section(props) {
   const downArrowVisible = () =>{
     let visibility
-    (props.prodName === 'Model 3'? visibility= 'm-auto mt-[10rem] cursor-pointer': visibility='hidden')
+    (props.prodName === 'Model 3'? visibility= 'm-auto mt-[7%] cursor-pointer': visibility='hidden')
     return visibility
   }
 
