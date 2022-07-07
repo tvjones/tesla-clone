@@ -10,6 +10,12 @@ The main motivation behind this project was that I wanted to learn react and tho
 ### Status : In progress
 
 
+### Credits
+
+* Close icons created by Royyan Wijaya - Flaticon - https://www.flaticon.com/free-icons/close
+* Down arrow icons created by Pixel perfect - Flaticon - https://www.flaticon.com/free-icons/down-arrow
+
+* All Tesla Images from - https://www.tesla.com/tesla-gallery
 
 # Getting Started with Create React App
 
