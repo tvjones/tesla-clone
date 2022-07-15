@@ -1,3 +1,22 @@
+# Project Details
+
+### Title: Tesla Landing Page Clone
+### Live Link: https://tesla-clone-tvjones.vercel.app/
+
+### About
+
+The main motivation behind this project was that I wanted to learn react and thought what better way than to do it than to build a project.It was styled using Tailwind CSS and is currently not mobile responsive as that was not apart of the main aim of the project (which as stated before, was to get familiar with React).
+
+### Status : In progress
+
+
+### Credits
+
+* Close icons created by Royyan Wijaya - Flaticon - https://www.flaticon.com/free-icons/close
+* Down arrow icons created by Pixel perfect - Flaticon - https://www.flaticon.com/free-icons/down-arrow
+
+* All Tesla Images from - https://www.tesla.com/tesla-gallery
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
