@@ -5,8 +5,8 @@ import Header from './Components/Header';
 
 function App() {
   return (
-    <div className="App h-full">
-      <div className='fixed pt-16 mb-20'><Header /></div>
+    <div className="App">
+      <div className='fixed pt-[5vh]'><Header /></div>
       <Section prodName = 'Model 3' bgImg = 'tesla-model-3' />
       <Section prodName = 'Model Y' bgImg = 'tesla-model-y' />
       <Section prodName = 'Model S' bgImg = 'tesla-model-s' />
