@@ -14,9 +14,9 @@ const toggleMenu = () =>{
 }
 
   return (
-    <div className='header w-full grid grid-cols-3 box-border' >
-        <img className='header-logo pl-[10%]' src='./images/tesla-logo.png' width='20%' height='100%' alt='logo' /> 
-        <nav className='product-links'>
+    <div className='header w-[100vw] flex' >
+        <img className='w-[5vw] header-logo pl-[2vw]' src='./images/tesla-logo.png' width='5px' height='100%' alt='logo' /> 
+        <nav className='product-links w-[75vw] pl-[25vw]'>
             <ul className='grid grid-cols-6'>
                 <li className='hover:rounded-full hover:bg-gray-400 cursor-pointer'> Model 3</li>
                 <li className='hover:rounded-full hover:bg-gray-400 cursor-pointer'> Model Y</li>
@@ -26,7 +26,7 @@ const toggleMenu = () =>{
                 <li className='hover:rounded-full hover:bg-gray-400 cursor-pointer'> Solar Panels</li>
             </ul>
         </nav>
-        <nav className='utility-links'>
+        <nav className='utility-links w-[30vw]'>
             <ul className='grid grid-cols-3 pl-[30%]'>
                 <li className='hover: w-[50%]  hover:rounded-full hover:bg-gray-400 cursor-pointer'>Shop</li>
                 <li className='hover: w-[50%]  hover:rounded-full hover:bg-gray-400 cursor-pointer'>Account</li>
