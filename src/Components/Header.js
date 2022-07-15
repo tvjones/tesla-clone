@@ -15,8 +15,8 @@ const toggleMenu = () =>{
 
   return (
     <div className='header w-[100vw] flex' >
-        <img className='w-[5vw] header-logo pl-[2vw]' src='./images/tesla-logo.png' width='5px' height='100%' alt='logo' /> 
-        <nav className='product-links w-[75vw] pl-[25vw]'>
+        <img className='header-logo ml-[2vw]' src='./images/tesla-logo.png' width='102vw' height='auto' alt='logo' /> 
+        <nav className='product-links w-[73vw] pl-[22vw]'>
             <ul className='grid grid-cols-6'>
                 <li className='hover:rounded-full hover:bg-gray-400 cursor-pointer'> Model 3</li>
                 <li className='hover:rounded-full hover:bg-gray-400 cursor-pointer'> Model Y</li>
